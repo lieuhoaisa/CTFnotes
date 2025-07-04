@@ -12,3 +12,18 @@ Heap related (update later)
 
 </p>
 </details>
+
+<details>
+<summary><strong>libc 2.31</strong></summary>
+<p>
+
+- **CyberSpace CTF 2024** --> shop
+	- [write-up](/challs/cyberspacectf/shop/readme.md)
+	> obiviously double free but no leak function, use `stdout 0.5` trick to have a leak then perform fsop...
+
+- **Dreamhack wargame** --> heap chall 1
+	- [write-up](/challs/dreamhack/heap_chall_1/readme.md)
+	> obviously double free but no leak function, the program auto add a **null byte** after input data, **modify** `stdout 0.5` trick a little to get a leak...
+
+</p>
+</details>
